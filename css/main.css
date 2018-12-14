@@ -1,0 +1,174 @@
+/*****BASE*****/
+
+body {
+     font-family: "Montserrat";
+     color: #424242;
+     background: #ffffff;
+}
+
+header {
+     height: 100px;
+}
+
+#about {
+     height: 500px;
+}
+
+#contact {
+     height: 190px;
+}
+
+ul {
+list-style: none;
+
+}
+
+#footer {
+     height: 80px;
+}
+
+.full-width {
+     width: 1200px;
+     margin: 0 auto;
+}
+
+.image-full-width {
+     width: 1200px;
+     height: auto;
+     margin: 0 auto;
+     border-top: 5px solid #77a466;
+     border-bottom: 5px solid #77a466;
+     padding: 0;
+  
+}
+
+.half-width {
+     width: 600px;
+     float: left;
+}
+
+.third-width {
+     width: 397px;
+     float: left;
+     border-top: 1px solid #dedbdc;
+     border-bottom: 1px solid #dedbdc;
+     border-right: 1px solid #dedbdc;
+     padding: 20px 0 0 0;
+     height: 200px;
+}
+
+.locations-third-width {
+     width: 377px;
+     float: left;
+     border-top: 1px solid #dedbdc;
+     border-bottom: 1px solid #dedbdc;
+     padding: 20px 0 0 20px;
+     height: 200px;
+}
+
+.reviews-third-width {
+     width: 357px;
+     float: left;
+     border-top: 1px solid #dedbdc;
+     border-bottom: 1px solid #dedbdc;
+     border-right: 1px solid #dedbdc;
+     padding: 20px 20px 0 20px;
+     height: 200px;
+}
+/*****HEADER*****/
+
+h1 {
+     font-size: 36px;
+     font-weight: bold;
+     line-height: 23px;
+     text-transform: uppercase;
+}
+
+#green {
+     color: #77a466;
+}
+nav {
+     float: right;
+}
+nav ul li{
+     display: inline-block;
+     padding: 10px;
+}
+
+nav ul li a{
+     font-size: 14px;
+     line-height: 23px;
+     color: #77a466;
+     font-weight: bold;
+     text-transform: uppercase;
+     text-decoration: none;
+}
+
+img {
+     display: block;
+}
+/*****ABOUT*****/
+
+#about .full-width {
+    
+}
+
+#about h2 {
+     font-size: 18px;
+     font-variant: small-caps;
+     color: #77a466;
+     font-weight: bold;
+}
+
+#about p {
+     font-size: 16px;
+     line-height: 25px;
+}
+
+/*****CONTACT*****/
+
+
+#contact h3 {
+     font-size: 12px;
+     text-transform: uppercase;
+     line-height: 25px;
+     font-weight: bold;
+}
+
+#contact #menu li {
+     font-size: 16px;
+     line-height: 36px;
+     color: #77a466; 
+     text-indent: -40px;
+     
+}
+
+#contact #reviews p {
+     font-size: 16px;
+     line-height: 21px;
+
+ }
+
+#contact #locations p {
+     font-size: 16px;
+     line-height: 24px;
+} 
+
+/*****FOOTER*****/
+
+#footer {
+     text-align: center;
+     padding-top: 40px;
+     font-size: 16px;
+     font-weight: bold;
+     line-height: 23px;
+     text-transform: uppercase;
+}
+
+#cursive {
+     font-family: 'Dancing Script', cursive;
+     font-size: 26px;
+     line-height: 23px;
+     color: #77a466;
+     font-variant: none;
+}
